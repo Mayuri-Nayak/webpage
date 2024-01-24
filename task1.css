@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+
+}
+nav ul li {
+    display:inline-block;
+    /* text-decoration: none; */
+    margin: -9px;
+    padding: 28px;
+
+}
+nav ul li a{
+    color: rgb(241, 246, 246);
+    text-decoration: none;
+}
+.marathi{
+    margin-top: 40px;
+    margin-left: 10px;
+
+}
+.wholebody1{
+    display:flex;
+    flex-direction: row;
+    border: 1px solid pink;
+    background-color: antiquewhite;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+}
+.text1{
+
+    height: 30px;
+    margin-top: 250px;
+    padding-left: 250px;
+    font-size: 40px;
+    
+}
+.hindu{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.wholebody2{
+    display: flex;
+    flex-direction: row;
+    border:1px solid pink;
+    background-color: antiquewhite;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.text2{
+    height:30px;
+    margin-top: 250px;
+    padding-left: 250px;
+    font-size: 40px;
+}
+.muslim{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.text3{
+    height:30px;
+    margin-top: 250px;
+    padding-left: 250px;
+    font-size: 40px;
+}
+.wholebody3{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid pink;
+    background-color: antiquewhite;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    padding: 10px;
+}
+.para1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.para11{
+    text-align: center;
+    font-size: 20px;
+}
+.wholebody4{
+    border: 1px solid pink;
+    height: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+}
+.form{
+    background-color: rgba(152, 148, 148, 0.5);
+    width: 800px;
+    margin: 40px 330px;
+    height: 400px;
+    box-shadow: 2px 2px 15px rgba(10, 6, 6, 0.3);
+}
+#register{
+    margin: 0px;
+    padding-top: 50px;
+    padding-left: 300px;
+}
+label{
+    font-size: 20px;
+}
+#name{
+    width:250px;
+    height:30px;
+    border:1px solid black;
+    margin-bottom: 15px;
+}
+#number{
+    width: 250px;
+    height:30px;
+    border:1px solid black;
+    margin-bottom: 15px;
+}
+#address{
+    width: 250px;
+    height:30px;
+    border:1px solid black;
+    margin-bottom: 15px;
+}
+#email{
+    width: 250px;
+    height:30px;
+    border:1px solid black;
+    margin-bottom: 15px;
+}
+#submit{
+    font-size: 20px;
+    width:150px;
+    height:30px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: rgb(205, 233, 248);
+}
